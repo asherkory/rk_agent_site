@@ -1,0 +1,32 @@
+h1 {
+
+}
+
+h6 {
+
+}
+
+.navbar {
+	background: #E2DCE8;
+	border-radius: 6px;
+	float: both;
+}
+
+.content {
+	position: absolute;
+	left: 100px;
+}
+
+.sidebar {
+	position: absolute;
+	right: 100px;
+}
+
+#agencyname {
+
+}
+
+address {
+
+}
+

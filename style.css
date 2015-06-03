@@ -61,10 +61,9 @@ div.navbar {
 
 
 div.content {
-	position: relative;
-	left: 100px;
-	width: 55%;
-	clear: left;
+	float: left;
+	margin-left: 100px;
+	width: 50%;
 }
 
 .content img {
@@ -82,10 +81,8 @@ div.content {
 
 
 div.sidebar {
-	position: relative;
-	right: 100px;
 	float: right;
-	
+	margin-right: 100px;
 }
 
 .sidebar p {

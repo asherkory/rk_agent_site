@@ -6,6 +6,7 @@ header {
 body {
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 	color: #888888;
+	font-size: small;
 }
 
 h1 {
@@ -34,7 +35,7 @@ div.navbar {
 	background: #E2DCE8;
 	border-radius: 6px;
 	margin: 20px 80px;
-	padding: 10px;
+	padding: 8px 10px 10px 10px;
 }
 
 .navbar ul {
@@ -44,7 +45,8 @@ div.navbar {
 
 .navbar li {
 	float: left;
-	padding: ;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 
 .navbar li:hover {
@@ -53,11 +55,13 @@ div.navbar {
 
 .navbar a {
 	display: block;
-	width: 100px;
 	color: #888888;	
-	padding: 0 10px 0 0;
+	padding: 4px 15px 10px 15px;
 }
 
+#here {
+	background: #FFFFFF;
+}
 
 
 div.content {
@@ -83,6 +87,7 @@ div.content {
 div.sidebar {
 	float: right;
 	margin-right: 100px;
+	border-left: 1px solid #E2DCE8;
 }
 
 .sidebar p {

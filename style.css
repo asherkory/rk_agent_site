@@ -1,32 +1,85 @@
+header {
+}
+
+body {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: #888888;
+}
+
 h1 {
-
+	padding-bottom: 0;
+	margin: 0;
 }
 
-h6 {
-
+h4 {
+	padding: 5px 2px;
+	margin: 0;
 }
 
-.navbar {
+a {
+	text-decoration: none;
+	color: #489ED5;
+}
+
+
+div.navbar {
 	background: #E2DCE8;
 	border-radius: 6px;
-	float: both;
+	margin: 8px;
 }
 
-.content {
+.navbar ul {
+	list-style-type: none;
+	display: inline;
+}
+
+.navbar li {
+	float: left;
+	padding: 0px 5px;
+}
+
+.navbar li:hover {
+	background: #FFFFFF;
+}
+
+.navbar a {
+	display: block;
+	width: 120px;
+	color: #888888	
+}
+
+
+
+div.content {
 	position: absolute;
 	left: 100px;
+	clear: both;
 }
 
-.sidebar {
+.content img {
+	border: 1px solid black;
+	padding: 6px;
+	display: inline-block;
+	float: left;
+}
+
+.content p {
+	float: right;
+}
+
+
+div.sidebar {
 	position: absolute;
 	right: 100px;
 }
 
-#agencyname {
-
+.sidebar p {
+	padding: 1px 8px;
 }
 
-address {
-
+#agencyname {
+	background: #E2DCE8;
+	border-radius: 6px;
+	padding: 8px;
 }
 
